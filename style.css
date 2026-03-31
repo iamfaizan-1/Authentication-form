@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --primary-color:#B7212E;
+}
+h2{
+    font-size: 32px;
+}
+label{
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 7px;
+}
+.input-field {
+    padding: 8px 0px 8px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.form-box {
+  width: 350px;
+}
+
+.right-side {
+  background-color: #f8d7da;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.logo-text {
+  font-size: 60px;
+  font-weight: bold;
+  color: #c82333;
+}
+
+.btn-danger {
+  background-color:  var(--primary-color);
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.form-check-label{
+    font-size: 12px;
+    margin-bottom: 0px!important;
+}
+
+.form-check-input{
+    font-size: 10px;
+}
+
+.mySpan{
+    font-size: 12px;
+}
+
+.btn-outline-secondary{
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    border: rgb(202, 202, 202) solid 1px  ;
+}
+.last-text{
+    font-size: 13px;
+    font-weight: 500;
+}
