@@ -7,6 +7,7 @@
 
 :root{
     --primary-color:#B7212E;
+    --secondary-color:#F8D7DA;
 }
 h2{
     font-size: 32px;
@@ -33,7 +34,7 @@ body {
 }
 
 .right-side {
-  background-color: #f8d7da;
+  background-color: var(--secondary-color);
   border-radius: 40px 0px 0px 40px;
 }
 
@@ -99,6 +100,36 @@ body {
 }
 
 
+/* forgot section */
+
+
+.btn-red {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.card-custom {
+  width: 350px;
+  padding: 40px 20px;
+  border-radius: 12px;
+  background: var(--secondary-color);
+}
+
+.btn-red:hover {
+  background-color: #a61b1b;
+}
+
+/* OTP Section */
+
+
+.otp-box {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 18px;
+  margin: 5px;
+}
 
 @media (max-width:768px) {
     
