@@ -75,6 +75,7 @@ body {
 }
 .image{
     display: none !important;
+    height: 80px!important;
 }
 
 
@@ -90,5 +91,14 @@ body {
 .right-side{
     display: none;
 }
+.main-heading{
+    text-align: center;
+}
 
+}
+@media (max-width:576px) {
+    .image{
+        margin-bottom: 10px;
+        
+    }
 }
