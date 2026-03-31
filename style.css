@@ -53,10 +53,13 @@ body {
 .form-check-label{
     font-size: 12px;
     margin-bottom: 0px!important;
+    
 }
 
 .form-check-input{
     font-size: 10px;
+    border: 2px solid rgb(202, 202, 202);
+    
 }
 
 .mySpan{
@@ -80,6 +83,23 @@ body {
 
 
 
+/* login */
+
+.para{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+.forgot-link{
+    font-size: 12px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+
 @media (max-width:768px) {
     
 .image{
@@ -94,11 +114,29 @@ body {
 .main-heading{
     text-align: center;
 }
-
+.para{
+    text-align: center;
+}
 }
 @media (max-width:576px) {
     .image{
         margin-bottom: 10px;
         
+    }
+}
+
+@media (max-width:361px) {
+    .form-box{
+        width: 100%;
+    }
+    .button-div{
+        gap: 5px!important;
+    }
+    .last-btn{
+        gap: 2px!important;
+        align-items: center;
+        justify-content: center;
+        padding-left: 3px;
+        padding-right: 3px;
     }
 }
